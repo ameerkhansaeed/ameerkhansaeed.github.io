@@ -20,13 +20,7 @@ body {
   position: relative;
   margin: 0 auto;
   min-height: 100vh;
-  border-color: var(--secondary-color);
-}
-
-
-.dark-theme {
-  --primary-color: #343a40;
-  --secondary-color: #f8f9fa;
+  border-color: var(--color-fg);
 }
 
 .main-container {
@@ -37,19 +31,20 @@ body {
 
 .hero-container {
   width: 100%;
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 7rem);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero {
+  padding: 1rem;
   width: 100%;
   min-height: 30vh;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px dashed var(--secondary-color);
-  border-top: 1px dashed var(--secondary-color);
+  border-top: 1px dashed var(--color-fg);
+  border-bottom: 1px dashed var(--color-fg);
 }
 
 .name {
