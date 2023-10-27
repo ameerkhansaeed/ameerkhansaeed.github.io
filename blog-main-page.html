@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ameer Khan Saeed</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./icons/code.png">
-    <script src="./script.js"></script>
   </head>
 <body>
   
@@ -23,7 +22,7 @@
           </a>
         </div>
       </div>
-      <button onclick="themeChange()">
+      <button type="button" data-theme-toggle aria-label="Change theme">
         <img src="./icons/dark-mode.png" alt="toggle" id="icon">
       </button>
     </header>
@@ -36,5 +35,7 @@
   <footer>
     <p>ameerkhansaeed@gmail.com</p>
   </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
