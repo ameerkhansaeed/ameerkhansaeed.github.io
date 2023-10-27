@@ -1,0 +1,14 @@
+:root,
+:root.light {
+	--primary-color: #f8f9fa;
+  --secondary-color: #343a40;
+}
+:root.dark {
+	--primary-color: #343a40;
+  --secondary-color: #f8f9fa;
+}
+
+body {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
