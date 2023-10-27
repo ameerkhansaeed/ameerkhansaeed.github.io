@@ -3,7 +3,6 @@ function themeChange() {
   element.classList.toggle("dark-theme");
 
   var icon = document.getElementById("icon");
-  var gmail = document.getElementById("gmail")
   if(document.body.classList.contains("dark-theme")) {
     icon.src = "icons/light-mode.png"
   }
