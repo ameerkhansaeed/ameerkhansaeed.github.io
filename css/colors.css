@@ -1,14 +1,14 @@
-:root,
-:root.light {
-	--primary-color: #f8f9fa;
-  --secondary-color: #343a40;
+[data-theme="light"] {
+  --color-bg: #f8f9fa;
+  --color-fg: #343a40;
 }
-:root.dark {
-	--primary-color: #343a40;
-  --secondary-color: #f8f9fa;
+
+[data-theme="dark"] {
+  --color-bg: #343a40;
+  --color-fg: #f8f9fa;
 }
 
 body {
-	background-color: var(--primary-color);
-	color: var(--secondary-color);
+	background-color: var(--color-bg);
+	color: var(--color-fg);
 }
