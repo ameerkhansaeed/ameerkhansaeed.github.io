@@ -48,6 +48,10 @@ body {
   flex-direction: row;
 }
 
+.bottom-spacing {
+  margin-bottom: 2rem;
+}
+
 .name {
   width: 50%;
   padding: 0 1rem;
