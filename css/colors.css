@@ -1,11 +1,15 @@
 [data-theme="light"] {
   --color-bg: #f8f9fa;
   --color-fg: #343a40;
+  --color-card-bg: #f5f5f5;
+  --color-border-accent: #343a4044;
 }
 
 [data-theme="dark"] {
   --color-bg: #343a40;
   --color-fg: #f8f9fa;
+  --color-card-bg: #3f4449;
+  --color-border-accent: #f8f9fa44;
 }
 
 body {
