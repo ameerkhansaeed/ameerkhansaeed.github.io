@@ -10,14 +10,16 @@ header {
 }
 
 .logo {
-  width: 50%;
+  min-width: 50%;
   display: flex;
+  flex-grow: 1;
   justify-content: left;
+  font-size: 0.5rem;
 }
 
 .navbar {
-  width: 50%;
   display: flex;
+  flex-grow: 1;
   justify-content: right;
 }
 

@@ -16,7 +16,7 @@ html {
 body {
   transition: all ease-in-out 0.2s;
   font-family: 'Fira Code', monospace;
-  width: 60%;
+  width: min(90%, 50rem);
   position: relative;
   margin: 0 auto;
   min-height: 100vh;
@@ -42,9 +42,8 @@ body {
   width: 100%;
   min-height: 30vh;
   display: flex;
+  justify-content: center ;
   flex-direction: row;
-  border-top: 1px dashed var(--color-fg);
-  border-bottom: 1px dashed var(--color-fg);
 }
 
 .name {
@@ -54,7 +53,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: 1.5rem;
 }
 
