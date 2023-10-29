@@ -17,16 +17,15 @@
   align-content: flex-start;
   width: 100%;
   gap: 1.5rem;
-  min-height: calc(100vh - 7rem);
-
+  min-height: calc(100vh - 7.35rem);
 }
 
 
 .card {
   transition: all ease 0.2s;
   padding: 1rem;
-  width: min(50rem, 30%);
-  min-height: min(15rem, 30%);
+  width: max(45%, 15rem);
+  min-height: min(12rem, 15%);
   flex-grow: 1;
   border-radius: 0.2rem;
   background-color: var(--color-card-bg);
@@ -49,6 +48,8 @@
 
 .content {
   margin-bottom: 0.5rem;
+  max-width: 90%;
+  text-wrap: balance;
 }
 
 .card-container a {
