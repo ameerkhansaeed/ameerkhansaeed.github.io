@@ -56,3 +56,8 @@
   text-decoration: none;
   color: var(--color-fg);
 }
+
+.left {
+  margin-top: 1rem;
+  text-align: left;
+}

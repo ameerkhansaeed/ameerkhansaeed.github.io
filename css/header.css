@@ -17,6 +17,11 @@ header {
   font-size: 0.5rem;
 }
 
+.logo a:link, .logo a:visited, .logo a:hover, .logo a:active {
+  text-decoration: none;
+  color: var(--color-fg);
+}
+
 .navbar {
   display: flex;
   flex-grow: 1;
